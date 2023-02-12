@@ -31,7 +31,7 @@
 }
 .box2{
     height: 300px;
-    width: 500px;
+    width: 1000px;
     background-color: #E5D8FF;
     border: 1px solid black;
     border-radius: 8px;
@@ -39,13 +39,20 @@
     border: 2px solid violet;
     box-sizing: border-box;
 }
-.cont3{
-    margin-top: 80px;
+.itrms{
     display: flex;
-    flex-direction: column;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+
+}
+.itrms div{
+    margin-right: 14px;
+}
+.cont3{
     position: sticky;
-    top: 100px;
-    
+    top :68px;
+    margin-top: 20vh;
+    float: right;
    
     
 }
@@ -77,6 +84,7 @@
 }
 .cont4{
     display: flex;
+    width: 1300px;
     justify-content: space-around;
     box-sizing: border-box;
     margin-top: 75px;
@@ -98,7 +106,7 @@
     justify-content: space-between;
     
     height: 500px;
-    width: 1000px;
+    width: 1300px;
     margin-top: 75px;
     border-radius: 15px;
     box-sizing: border-box;
